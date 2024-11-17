@@ -1,13 +1,10 @@
-"use client"
-import  {Flow}  from "./components/Flow";
-import "./styles/Navbar.css";
+"use client";
+import { Flow } from "./components/Flow";
 
 export default function Home() {
-  
-  return (
-    <>
-      <Flow />
-    </>
-
-  );
+	return (
+		<>
+			<Flow />
+		</>
+	);
 }
